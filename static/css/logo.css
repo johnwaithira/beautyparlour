@@ -1,0 +1,41 @@
+.f78{
+    background: #808080b7;
+    padding: 10px;
+    border-radius: 1em 2em / 2em 3em;
+    font-size: 78px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.f78 span{
+               
+}
+.image-fluid #a{
+    color: rgb(50, 110, 90);
+}
+#b{
+    color: rgba(41, 39, 43, 0.842);
+}
+#e{
+    color:rgb(196, 196, 82);
+}
+#u{
+    color:rgb(161, 238, 130);
+}
+#t{
+    color: turquoise;
+}
+#y{
+    color: rgb(66, 16, 16);
+}
+#p{
+    color: rgb(141, 89, 85);
+}
+#l{
+    color: rgba(247, 0, 255, 0.63);
+}
+@media (max-width:1022px){.f86{font-size: 66px;}}
+@media (max-width:992px){.f56{font-size: 56px;}}
+@media (max-width:788px){.f48{font-size: 48px;}}
+@media (max-width:600px){.f42{font-size: 42px;}}
+@media (max-width:500px){.f36{font-size: 38px;}}
+@media (max-width:350px){.f28{font-size: 33px;}}
+

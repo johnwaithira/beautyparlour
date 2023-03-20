@@ -1,0 +1,671 @@
+@import url(./font.css);
+@import url(./color.css);
+@import url(./extension.css);
+@import url(./logo.css);
+@import url(./banner.css);
+*{
+    font-family: beautypala;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+/* scrolltopbtn */
+.scroll-top{
+    z-index: 1000;
+    display: none;
+}
+.scroll-top-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(99, 98, 98);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+
+}
+.scroll-top-btn span{
+    color: #252527;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background: rgb(224, 204, 204);
+}
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+nav .logo{
+    font-weight: 900;
+    font-size: 22px;
+}
+nav li{
+    font-size: 18px;
+}
+#checkNavBar{
+    display: none;
+}
+.beauty-pala-nav{
+    margin: 0 80px;
+    padding: 20px 0;
+}
+.beauty-pala-nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigators{
+    flex: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items ul li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+}
+.clients{
+    padding-top: 10px;
+}
+.clients li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.clients li button{
+    padding: 7px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+/* menu */
+.menu{
+    width: 25px;
+    background: #000;
+    height: 4px;
+    border-radius: 40px;
+}
+.mid{
+    width: 35px;
+    margin: 8px 0;
+}
+.beauty-pala-nav-wrapper label{
+    cursor: pointer;
+    display: none;
+}
+.adjust{
+    min-height: 85vh;
+}
+.top-110{
+    padding-top: 100px;
+}
+.container-1
+,.container-2,
+.container-3,
+.container-4,
+.image-fluid{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+.info-wrapper-1{
+    margin-top: 50px;
+    width: 80%;
+}
+.info-wrapper-1 .details{
+    margin: 20px;
+}
+.container-1{
+    background-image: linear-gradient(rgba(150, 142, 142, 0.404), rgba(0,0,0,0.1)), url(../../assets/acrylic\ vs\ gel\ extensions.jpg);
+
+}
+
+.container-2{
+    background-image: linear-gradient(rgba(150, 142, 142, 0.404), rgba(0,0,0,0.1)), url(../../assets/h2-img-1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+.container-3{
+    background-image: linear-gradient(rgba(150, 142, 142, 0.404), rgba(0,0,0,0.1)), url(../../assets/facial-img.jpg);
+}
+.container-4{
+background-image: linear-gradient(rgba(150, 142, 142, 0.404), rgba(0,0,0,0.1)), url(../../assets/Interior-of-a-luxury-hair-salon-dec5.jpg);
+}
+
+.more-info{
+    min-height: 60vh;
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
+.more-info p{
+    padding: 5px 0;
+}
+.more-info a{
+    color: inherit;
+    text-decoration: none;
+}
+.info-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+#form .form-group{
+    background: inherit;
+
+}
+#form .form-group input{
+    padding: 10px 10px 15px 0px;
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    background:inherit;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.61);
+}
+.page-1{
+    background: #f2f2f2;
+}
+.image-holder{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.info-container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.container-1, .container-2,.container-3, .container-4{
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+}
+.landing-container{
+    height: 100%;
+    
+  
+    background-attachment: fixed;
+    background-image:url(../../assets/acrylic\ vs\ gel\ extensions.jpg);
+}
+
+
+.banner-1{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+/* .booking */
+.booking{
+    width: 100%;
+}
+.booking-wrapper{
+    width:90%;
+    margin: 0 auto;
+}
+.booking-title{
+    padding: 20px 0;
+    color: #949494c5;
+}
+.booking-inner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.booking-desc{
+    margin: 20px;
+}
+.booking-desc p{
+    font-size: 18px;
+}
+.trans-btn{
+    margin-top: 20px;
+}
+.trans-btn button{
+    padding: 10px 30px;
+    background: none;
+    border-color: #25252759;
+}
+.booking-img{
+    margin: 20px;
+    display: grid;
+    place-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../../assets/MassageTherapy_173046037-650x428.jpg);
+}
+
+
+.reservation{
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f263;
+    
+}
+.reservation-desc
+{
+    padding: 10px;
+    margin: 10px;
+}
+.reservation-desc h2{
+    padding: 20px 0;
+}
+.reservation-desc p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.qoutes-of-the-day{
+    background: var(--nineteen);
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+.quote-wrapper{
+    padding: 20px;
+}
+.inner-quote-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.quote-box{
+    background: var(--thirteen);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.the-quote{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.the-quote h2{
+    font-size: 35px;
+}
+.qoute_sy{
+    padding: 20px;
+    font-size: 104px;
+}
+.card{
+    margin-top: 20px;
+}
+.author-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-card{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+
+}
+.img-card img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+.name-fluid{
+    padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+/* media query */
+
+@media (max-width:992px) {
+    .beauty-pala-nav-wrapper label{
+        cursor: pointer;
+        display: block;
+    }
+    .top-110{
+        padding-top: 110px;
+    }
+    #checkNavBar:checked ~ .navigators{
+        top: 110px;
+    }
+    nav{
+        padding: 20px 0;
+    }
+    .beauty-pala-nav{
+        margin: 0 50px;
+        padding: 20px 0;
+    }
+    .navigators{
+        transition: 0.5s all;
+        display: flex;
+        z-index: 100000000;
+        flex-direction: column;
+        min-height: 80vh;
+        width: 100%;
+        left: 0;
+        justify-content: space-evenly;
+        right: 0;
+        top: -1000px;
+        background: #f2f2f2;
+        position: absolute;
+    }
+    .navigators .nav-items ul li, .clients li{
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .navigators .clients{
+        padding-left: 10px;
+        
+    }
+    
+}
+
+
+@media (min-width:992px){
+    .navigators{
+        flex: 0.9;
+    }
+}
+@media (min-width:1200px){
+    .navigators{
+        flex: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.newsletter{
+    display: grid;
+
+    width: 100%;
+    align-items: center;
+    background: var(--fifteen);
+}
+.stay-in-touch{
+    text-align: center;
+    padding: 20px;
+}
+.stay-in-touch h1{
+    font-size: 53px;
+}
+.stay-in-touch p{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.inner-news-letter-wrapper{ 
+    
+}
+.centered-newsletter-form{ 
+    
+}
+.newsletter 
+.inner-news-letter-wrapper 
+.centered-newsletter-form 
+form{
+    padding-top: 20px;
+    max-width: 500px;
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+.newsletter 
+.inner-news-letter-wrapper 
+.centered-newsletter-form 
+form .form-group{
+    margin:20px 5px 5px 5px;
+    max-width: 86%;
+
+}
+.newsletter 
+.inner-news-letter-wrapper 
+.centered-newsletter-form 
+form .form-group input{
+    padding:13px 10px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background: rgb(239, 243, 205);
+    border-radius: 5px;
+    
+}
+
+form ::placeholder{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-btn {
+    float: right;
+}
+.form-btn button{
+    font-size: 18px;
+    padding: 12px 30px;
+    border-radius:50px;
+    border: none;
+    outline: none;
+    margin:10px 40px 10px 20px;
+}
+
+.form-btn button:hover{
+    color: #f2f2f2;
+    background: #1f1f1f71;
+}
+.insights{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    
+}
+.insights .instagram{
+    margin: 0 auto;
+    width: 90%;
+    
+}
+.big-font{
+    font-size: 55px;
+}
+.insta-image-container, .insta-image-container img{
+    margin:5px;
+    height: auto;
+}
+
+
+
+
+footer{
+    background:var(--two);
+    min-height: 50vh;
+   padding-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+
+}
+.footer-box{
+    margin: 10px 15px 2px 15px;
+    padding: 5px;
+}
+.ul{
+    /* border: 1px dotted green; */
+    padding: 10px;
+}
+.ul li{
+    padding: 5px 0;
+}
+
+.ul li a{
+    color: #333333;
+}
+.ul li a:hover{
+    color: var(--seven);
+}
+footer .gap{
+    padding: 5px ;
+}
+.footer-box li{
+    list-style: none;
+}
+.display-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.upper-footer, .lower-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-logo-desc{
+    font-size: 18px;
+}
+.footer-title{
+    padding: 10px 0 15px 0;
+}
+.footer-title h2{
+    color: var(--eighteen);
+}
+.socials{
+    margin: 10px 0;
+}
+
+.socials span{
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 10px;
+}
+.lower-footer .lower-inner-wrapper{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.lower-footer .lower-inner-wrapper .col-6{
+    padding: 10px 0;
+}
+.book-appointment{
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    border-radius: none;
+    cursor: pointer;
+    outline: none;
+}
+.book-appointment:hover{
+    background: var(--six);
+    border: none;
+    color: var(--five);
+}
+.line{
+    margin: 20px;
+}
+/*  */
+@media (max-width: 500px){[class*="col-"]{ width: 100%;margin: 0 auto;}
+.upper-footer, .lower-footer{width: 90%;}
+.beauty-pala-nav{
+    margin: 0 30px;
+    padding: 20px 0;
+}
+.landing-container{
+    background-position: 50%; 
+    background-size: cover;
+}
+.service-card{
+    /* background: #000; */
+    padding: 1px;
+    
+}
+.big-font{
+    font-size: 22px;
+}
+.booking-wrapper{
+    width:95%;
+    margin: 0 auto;
+}
+.stay-in-touch h1{
+    font-size: 23px;
+}
+.info-wrapper{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.stay-in-touch p{
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.the-quote{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.the-quote h2{
+    font-size: 25px;
+}
+.qoute_sy{
+    padding: 0px;
+    font-size: 68px;
+}
+
+
+}
+@media(min-width:501px){.col-s-70{width: 70%}.col-s-1{ width: 8.33%;}.col-s-2{width:16.66%;}.col-s-3{width:25%;}.col-s-4{width:33.33%;}.col-s-5{width:41.66%;}.col-s-6{width:50%;}.col-s-7{width:58.33%;}.col-s-8{width:66.66%;}.col-s-9{width:75%;}.col-s-10{width:83.33%;}.col-s-11{width:91.66%;}.col-s-12{width:100%;}}
+@media(min-width:701px){.col-70{width: 70%}.col-m-1{ width: 8.33%;}.col-m-2{width:16.66%;}.col-m-3{width:25%;}.col-m-4{width:33.33%;}.col-m-5{width:41.66%;}.col-m-6{width:50%;}.col-m-7{width:58.33%;}.col-m-8{width:66.66%;}.col-m-9{width:75%;}.col-m-10{width:83.33%;}.col-m-11{width:91.66%;}.col-m-12{width:100%;}}
+
+@media(min-width:992px){.res-d-n{width: 23%;} z.col-1{width: 8.33%;}.col-2{width:16.66%;}.col-3{width:25%;}.col-4{width:33.33%;}.col-5{width:41.66%;}.col-6{width:50%;}.col-7{width:58.33%;}.col-8{width:66.66%;}.col-9{width:75%;}.col-10{width:83.33%;}.col-11{width:91.66%;}.col-12{width:100%;}}
+
+@media (max-width:280px){
+    .beauty-pala-nav{
+        margin: 0 15px;
+        padding: 20px 0;
+    }
+    .stay-in-touch h1{
+        font-size: 19px;
+    }
+    .stay-in-touch p{
+        padding-top: 15px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

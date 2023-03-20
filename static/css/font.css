@@ -1,0 +1,7 @@
+@font-face {
+    font-family: beautypala;
+    src: url(../font/TT-Interphases-Var-Roman.woff2);
+}
+button{
+    cursor: pointer;
+}
